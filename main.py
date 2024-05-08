@@ -10,7 +10,7 @@ class Warrier ():#Создали клаасс воина
 
     def eat(self):
         print(f'{self.name} сел кушать')
-        self.power += 2 #Увеличили силу
+        self.power += 1 #Увеличили силу
 
     def hit(self):
         print(f'{self.name} бьет кого-то')
@@ -24,3 +24,19 @@ class Warrier ():#Создали клаасс воина
         print(f"Цыет волос воина - {self.hair_color}")
         print(f"Сила воина - {self.power}")
         print(f"Выносливость воина - {self.endurance}")
+
+
+war1 = Warrier('Степа', 76, 54, 'коричневый')# Создали обьект класса воина
+war2 = Warrier('Петя', 56, 45, 'черный')# Создали обьект класса воина
+
+war1.sleep()
+war1.eat()
+war1.hit()
+war1.walth()
+war1.info()
+
+war2.sleep()
+war2.eat()
+war2.hit()
+war2.walth()
+war2.info()
